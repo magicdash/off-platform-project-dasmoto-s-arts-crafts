@@ -9,7 +9,7 @@ body {
   background: #ffffff;
 }
 .hero {
-  background-image: url("./images/pattern.jpeg"); /* cambia ruta si aplica */
+  background-image: url("pattern.jpeg"); /* cambia ruta si aplica */
   background-size: cover;
   background-position: center;
   padding: 20px 0; /* da altura como en la imagen */
@@ -52,4 +52,5 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: blue;
+
 }
