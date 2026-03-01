@@ -1,0 +1,55 @@
+/* Reset básico para que se vea como tu diseño */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #ffffff;
+}
+.hero {
+  background-image: url("./images/pattern.jpeg"); /* cambia ruta si aplica */
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0; /* da altura como en la imagen */
+}
+
+/* Título grande */
+.hero h1 {
+  margin: 0;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  line-height: 1.1; /* ayuda a que cuando rompa línea se vea igual */
+}
+
+
+/* Section Titles */
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Background colors per section */
+.brushes {
+  background-color: mediumspringgreen;
+}
+
+.frames {
+  background-color: lightcoral;
+}
+
+.paint {
+  background-color: skyblue;
+}
+
+/* Price styling */
+.price {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
